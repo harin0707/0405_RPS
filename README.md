@@ -15,4 +15,5 @@
     1) 버튼 눌러진 효과
     2) 결과판이랑 버튼 width 맞추기 
     justify-content: space-around?
+    3) section 구성하는 boardZone-left, gamingZone, boardZone-right 1:1:1로 width 구성하기
 
