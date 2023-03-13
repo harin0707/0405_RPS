@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>0405 자바스크립트 기초</title>
 </head>
 <body>
@@ -13,16 +14,15 @@
             <div> 가위바위보! </div>
         </header>
 
-        <section>
-            <div className="score">Score</div>
-            <div className="scoreBox">
+        <section class="gamingZone">
+            <div class="scoreBox"> score: ??? </div>
 
-            </div>
+            <div class="resultBox"> 너님의 결과 </div>
 
-            <div className="buttonWrapper">
-                <button> 가위 </button>
-                <button> 바위 </button>
-                <button> 보 </button>
+            <div class="buttonsWrapper">
+                <div class="buttonWrapper"><image class="buttonImg" src="./img/가위.jpg" alt="가위"/></div>
+                <div class="buttonWrapper"><image class="buttonImg" src="./img/바위.jpg" alt="바위"/></div>
+                <div class="buttonWrapper"><image class="buttonImg" src="./img/보.jpg" alt="보"/></div>
             </div>
 
         </section>

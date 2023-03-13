@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+
+    border: black 1px solid;
+}
+
+.gamingZone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scoreBox{
+    text-align: center;
+    font-size: 50px;
+
+    width: 300px;
+}
+
+.buttonsWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.buttonWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: black solid 3px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+
+
+.buttonImg{
+    width: 40px;
+    height: 60px;
+}
