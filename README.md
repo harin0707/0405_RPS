@@ -13,4 +13,6 @@
 
 2. css
     1) 버튼 눌러진 효과
+    2) 결과판이랑 버튼 width 맞추기 
+    justify-content: space-around?
 
