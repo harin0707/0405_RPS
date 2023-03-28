@@ -25,5 +25,42 @@ body{
     border-radius: 20px;
 }
 
+.row{
+    display: flex;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.score-section{
+    height: 15%;
+    background-color: yellow;
+
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.display-section{
+    height: 60%;
+    background-color: pink;
+
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.button-section{
+    height: 25%;
+    background-color: greenyellow;
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
 
 
