@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
 body{
     margin: 0;
     padding: 0;
@@ -36,7 +38,6 @@ body{
 
 .score-section{
     height: 15%;
-    background-color: yellow;
 
     justify-content: space-around;
     align-items: center;
@@ -45,7 +46,6 @@ body{
 
 .display-section{
     height: 60%;
-    background-color: pink;
 
     justify-content: space-around;
     align-items: center;
@@ -54,12 +54,28 @@ body{
 
 .button-section{
     height: 25%;
-    background-color: greenyellow;
 
     justify-content: center;
     align-items: center;
     gap: 10px;
 
+}
+
+.button{
+    all: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 70px;
+    height: 70px;
+
+    border-radius: 50%;
+    border: black 4px solid;
+}
+
+.fa-regular{
+    font-size: 60px;
 }
 
 
