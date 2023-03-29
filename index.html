@@ -9,10 +9,6 @@
     
 </head>
 <body>
-    <script src="app.js"></script>
-    <script src="https://kit.fontawesome.com/001200a43b.js" crossorigin="anonymous"></script>
-    
-
     <header id="title"> rock scissors paper!</header>
     <div id="wrapper">
         <section class="score-section row">
@@ -21,17 +17,26 @@
         </section>
 
         <section class="display-section row">
-            <div class="me"> 내가 낸 거 </div>
-            <div class="computer"> 컴퓨터가 낸 거 </div>
+            <div class="column">
+                <span class="display-text">Me</span>
+                <div>내가 낸 패</div>
+            </div>
+
+            <div class="column">
+                <span class="display-text">Computer</span>
+                <div><i class="computer-choice"></i></div>
+            </div>
         </section>
 
         <section class="button-section row">
-            <button class="button"><i class="fa-regular fa-hand-back-fist"></i></button>
-            <button class="button"><i class="fa-regular fa-hand-scissors fa-rotate-90"></i></i></button>
-            <button class="button"><i class="fa-regular fa-hand"></i></button>
+            <button id='rock' class="button"><i class="fa-regular fa-hand-back-fist"></i></button>
+            <button id='scissors' class="button"><i class="fa-regular fa-hand-scissors fa-rotate-90"></i></button>
+            <button id='paper' class="button"><i class="fa-regular fa-hand"></i></button>
         </section>
     </div>
 
     
+    <script src="https://kit.fontawesome.com/001200a43b.js" crossorigin="anonymous"></script>
+    <script src="./js/app.js"></script>
 </body>
 </html>
