@@ -11,31 +11,53 @@ body{
     align-items: center;
 
     font-family: 'Delicious Handrawn';
+    font-size: 30px;
 
     /* background-color: 클릭 이벤트로 값 지정해줄 예정; */
 }
 
-#title{
-    font-size: 30px;
+button{
+    all: unset;
 }
 
-#wrapper{
-    width: 500px;
-    height: 500px;
+#reset-button{
+    font-size: 15px;
+    border: black solid 2px;
+    border-radius: 50%;
 
-    border: black solid 3px;
-    border-radius: 20px;
+    text-align: center;
+
+    /* 다크 모드할 때 바꿔보기 */
+    padding: 3px;
+    background-color: black;
+    color: white;
 }
 
+
+/* display 속성 재사용 */
 .row{
     display: flex;
+    align-items: center;
 }
 
 .column{
     display: flex;
     flex-direction: column;
-
     align-items: center;
+}
+
+
+#title{
+    font-size: 30px;
+}
+
+#contents-wrapper{
+    width: 500px;
+    height: 500px;
+
+    border: black solid 3px;
+    border-radius: 20px;
+    margin-top: 10px;
 }
 
 .score-section{
@@ -55,6 +77,17 @@ body{
 
 .display-text{
     font-size: 50px;
+    flex-basis: 50%;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.display-title{
+    border-bottom: black solid 3px;
+
+    width: 80%;
+    text-align: center;
 }
 
 .button-section{
@@ -67,7 +100,6 @@ body{
 }
 
 .button{
-    all: unset;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,9 +109,24 @@ body{
 
     border-radius: 50%;
     border: black 4px solid;
-
     font-size: 60px;
 }
+
+#my-hand-text, #computer-hand-text{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+
+}
+
+.icon-container{
+    font-size: 80px;
+
+    text-align: center;
+    width: 100%;
+    height: 80px;
+}
+
 
 
 
