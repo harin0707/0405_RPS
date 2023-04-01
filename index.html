@@ -11,27 +11,33 @@
 <body>
     <div id="header-wrapper" class="row">
         <header id="title"> rock scissors paper!</header>
-        <button id="row">
+        <button>
             <i id="reset-button" class="fa-solid fa-arrow-rotate-left"></i>
         </button> 
     </div>
     
     <div id="contents-wrapper">
         <section class="score-section row">
+            <div class="score my-score">0</div>
             <div class="score">score</div>
+            <div class="score computer-score">0</div>
         </section>
 
         <section class="display-section row">
             <div class="column display-text">
                 <div class="display-title">Me</div>
+
                 <div class='icon-container'>
                     <i id="my-hand-icon" class="icon"></i>
                 </div>
                 <div id="my-hand-text"></div>
             </div>
 
+            <div id="display-result"></div>
+
             <div class="column display-text">
                 <div class="display-title">Computer</div>
+
                 <div class='icon-container'>
                     <i id="computer-hand-icon" class="icon"></i>
                 </div>
@@ -40,9 +46,9 @@
         </section>
 
         <section class="button-section row">
-            <button id='rock' class="button"><i class="fa-regular fa-hand-back-fist"></i></button>
-            <button id='scissors' class="button"><i class="fa-regular fa-hand-scissors fa-rotate-90"></i></button>
-            <button id='paper' class="button"><i class="fa-regular fa-hand"></i></button>
+            <button id='rock'><i id="button" class="fa-regular fa-hand-back-fist"></i></button>
+            <button id='scissors'><i id="button" class="fa-regular fa-hand-scissors fa-rotate-90"></i></button>
+            <button id='paper'><i id="button" class="fa-regular fa-hand"></i></button>
         </section>
     </div>
 
