@@ -84,7 +84,6 @@ function startGame(myChoice) {
 //6-2 최근에 클릭한 버튼 감지- click 클래스 생성하기
 //displayMyChoice 함수에서 선언한 변수 clikcedIcon, clickedBtn 사용하러 가기
 
-// 7. 함수 실습2) 버튼 누르면 컴퓨터 패 보이게 -> setTimeout
 
 //+ 과제: 버튼 클릭으로 스타일 속성 바꿔보기 => 다크모드
 //+ 점수 올라가는 거 구현해보기 + 리셋 버튼
