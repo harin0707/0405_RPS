@@ -16,7 +16,7 @@ rockBtn.addEventListener('click', displayMyChoice);
 scissorsBtn.addEventListener('click', displayMyChoice);
 paperBtn.addEventListener('click', displayMyChoice);
 
-//3. 함수가 실행될 때, 이벤트가 발생한 dom 객체에 접근하기(e.target, this)
+//3. 함수가 실행될 때, 이벤트가 발생한 dom 객체에 접근하기(e.target)
 //4. innerHTML 실습
 function displayMyChoice(e){
     let clickedBtn = e.currentTarget.id;
@@ -84,9 +84,6 @@ function startGame(myChoice) {
 //6-2 최근에 클릭한 버튼 감지- click 클래스 생성하기
 //displayMyChoice 함수에서 선언한 변수 clikcedIcon, clickedBtn 사용하러 가기
 
-
-//+ 과제: 버튼 클릭으로 스타일 속성 바꿔보기 => 다크모드
-//+ 점수 올라가는 거 구현해보기 + 리셋 버튼
 
 
 
