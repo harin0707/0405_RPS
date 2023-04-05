@@ -36,7 +36,8 @@ function displayMyChoice(e){
 }
 
 function getComChoice(){
-    const randomArr = {
+    //배열의 [0]에는 text, [1]에는 className
+    const randomValue = {
         0: ["rock", "fa-regular fa-hand-back-fist"],
         1: ["scissors", "fa-regular fa-hand-scissors fa-rotate-90"],
         2: ["paper", "fa-regular fa-hand"],
@@ -44,7 +45,7 @@ function getComChoice(){
 
     const randomIndex=Math.floor(Math.random()*3);
 
-    return [randomArr[randomIndex]];
+    return [randomValue[randomIndex]];
 }
 
 function displayComChoice(result){
@@ -79,9 +80,9 @@ function startGame(myChoice) {
 
 
 //6. 함수 실습1) 배열 만들고, 랜덤 인덱스 추출 -> className에 매칭하기
-//6-1 컴퓨터가 낼 수 있는 패 배열에 저장
+//6-1 컴퓨터가 낼 수 있는 패 ->객체에 저장 value: 배열
 
-//6-2 최근에 클릭한 버튼 감지- click 클래스 생성하기
+//6-2 최근에 클릭한 버튼 감지
 //displayMyChoice 함수에서 선언한 변수 clikcedIcon, clickedBtn 사용하러 가기
 
 
